@@ -21,3 +21,8 @@ h1{
     color: #0C576E;
     height: 4rem;
 }
+
+img {
+    max-width: 4;
+    max-height: 4;
+}

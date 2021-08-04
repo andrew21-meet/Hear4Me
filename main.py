@@ -12,6 +12,15 @@ app = Flask(
 def main():
     return render_template('main.html')
 
+@app.route('/ar')
+def main_ar():
+    return render_template('main-ar.html')
+
+@app.route('/he')
+def main_he():
+    return render_template('main-he.html')
+
+
 if __name__ == "__main__": 
     app.run(
         host = "0.0.0.0",

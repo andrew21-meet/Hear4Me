@@ -36,7 +36,7 @@
 <body>
     <div><img src = "static/img/Hear4me_logo.png" alt="" class="center">
     <a href="{{url_for('main_ar')}}">AR</a>
-    <a href="{{url_for('main_he')}}">HE</a>
+    <a href="{{url_for('main')}}">EN</a>    
     </div>
         <!--Therapists searchbar-->
 
@@ -54,9 +54,9 @@
                 <div class="card">
                     <img src="static/img/1.jpg" alt="image">
                     <div class="card-body">
-                        <h5 class="card-title">Jake Bourne</h5>
-                        <h6 class="card-title">Tel Aviv</h6>
-                        <p class="card-title">Specializes in anxiety and depression</p>
+                        <h5 class="card-title">ג'ייק בורן</h5>
+                        <h6 class="card-title">תל אביב</h6>
+                        <p class="card-title" style="text-align: right;">מתמחה בחרדות ודיכאון</p>
                         <p class="card-title">Email: jake.bourne@gmail.com<br>Phone: 0982429834</p>
 
                     </div>
@@ -65,9 +65,9 @@
                 <div class="card">
                     <img src="static/img/1.jpg" alt="image">
                     <div class="card-body">
-                        <h5 class="card-title">Darin Moody</h5>
-                        <h6 class="card-title">Jerusalem</h6>
-                        <p class="card-title">Specializes in suicide and depression</p>
+                        <h5 class="card-title">דרין מודי</h5>
+                        <h6 class="card-title">ירושלים</h6>
+                        <p class="card-title" style="text-align: right;">מתמחה בהתאבדות ודיכאון</p>
                         <p class="card-title">Email: darin.moody@gmail.com<br>Phone: 0988327234</p>
                     </div>
                 </div>
@@ -75,9 +75,9 @@
                 <div class="card">
                     <img src="static/img/1.jpg" alt="image">
                     <div class="card-body">
-                        <h5 class="card-title">Beth Black</h5>
-                        <h6 class="card-title">Tel Aviv</h6>
-                        <p class="card-title">Specializes in violence help, harassments and phobias</p>
+                        <h5 class="card-title">בת 'בלאק</h5>
+                        <h6 class="card-title">תל אביב</h6>
+                        <p class="card-title" style="text-align: right;">מתמחה בעזרה באלימות, הטרדות ופוביות</p>
                         <p class="card-title">Email: beth.black@gmail.com<br>Phone: 0283764464</p>
                     </div>
                 </div>
@@ -85,9 +85,9 @@
                 <div class="card">
                     <img src="static/img/1.jpg" alt="image">
                     <div class="card-body">
-                        <h5 class="card-title">Luka Arellano</h5>
-                        <h6 class="card-title">Haifa</h6>
-                        <p class="card-title">Specializes in general mental help and eating disorders.</p>
+                        <h5 class="card-title">לוקה ארלנו</h5>
+                        <h6 class="card-title">חיפה</h6>
+                        <p class="card-title" style="text-align: right;">מתמחה בעזרה נפשית כללית והפרעות אכילה</p>
                         <p class="card-title">Email: luka.arellano@gmail.com<br>Phone: 0293864834</p>
                     </div>
                 </div>
@@ -95,9 +95,9 @@
                 <div class="card">
                     <img src="static/img/1.jpg" alt="image">
                     <div class="card-body">
-                        <h5 class="card-title">John McCallum</h5>
-                        <h6 class="card-title">Tel Aviv</h6>
-                        <p class="card-title">Specializes in anxiety, depression, harassments and suicide</p>
+                        <h5 class="card-title">ג'ון מקאלום</h5>
+                        <h6 class="card-title">תל אביב</h6>
+                        <p class="card-title" style="text-align: right;">מתמחה בחרדות, דיכאון, הטרדות והתאבדויות</p>
                         <p class="card-title">Email: john.mccallum@gmail.com<br>Phone: 0938746334</p>
                     </div>
                 </div>
@@ -105,9 +105,9 @@
                 <div class="card">
                     <img src="static/img/1.jpg" alt="image">
                     <div class="card-body">
-                        <h5 class="card-title">Damian Russ</h5>
-                        <h6 class="card-title">Nazareth</h6>
-                        <p class="card-title">Specializes in depression and eating disorders</p>
+                        <h5 class="card-title">דמיאן ראס</h5>
+                        <h6 class="card-title">נצרת</h6>
+                        <p class="card-title" style="text-align: right;">מתמחה בדיכאון והפרעות אכילה</p>
                         <p class="card-title">Email: Damian.russ@gmail.com<br>Phone: 0529387894</p>
                     </div>
                 </div>
@@ -169,5 +169,9 @@ a:link, a:visited {
 a:hover, a:active {
     background-color:#99EEEE ;
   }
+
+h5, h6{
+    text-align: right;
+}
 </style>
 </html>
